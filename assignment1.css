@@ -1,0 +1,113 @@
+.maincontainer{
+    
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+    
+    margin: 20px auto;
+    background-color: rgb(27, 235, 148);
+    border-radius: 10px;
+}
+.text{
+    /* margin-bottom: auto auto; */
+    font-size: large;
+    padding-top: 20%;
+    
+}
+.btn{
+
+height: 50px;
+width: 200px;
+border-radius: 40px;
+font-size: large;
+}
+.profilecontainer{
+    border: 1px solid grey;
+    width: 470px;
+    height: 400px;
+    margin: 20px auto;
+    /* padding: 40px; */
+    border-radius: 10px;
+
+}
+.profilemain{
+padding: 0;
+font-size: larger;
+margin: 0;
+padding: 40px;
+
+}
+.profilemain h5 {
+    font-size: large;
+    font-weight: 600; 
+    color: gray; 
+}
+.profileimg{
+display: flex;
+justify-content: space-around;
+margin-top: 20px;
+}
+.circle{
+    height: 25%;
+    width: 25%;
+    border-radius: 50%;
+object-fit: cover;
+
+}
+.profilesub{
+    border-top: 1px solid gray;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+.profilesub h1{
+    color: rgb(0, 132, 255);
+}
+.googlephotos{
+    width:470px;
+    height:500px;
+    border:1px solid gray;
+    margin: 20px auto;
+}
+.googleimg{
+    margin: 0px;
+    width: 470px;
+    height: 130px;
+    box-sizing: border-box;
+}
+.lockimg{
+    display: flex;
+    padding:20px ;
+    flex-direction: row;
+    align-items: center;
+    
+
+}
+.lock{
+    height: 30px;
+    width: 30px;
+}
+.lockimg h3{
+    margin-left: 30px;
+    color: gray;
+}
+.googletexthead{
+    margin-left: 30px;
+    font-size:xx-large;
+}
+.gogletext{
+    font-size: large;
+    font-weight: 500;
+    color: gray;
+    margin-top: 20px;
+}
+.Detailbutton{
+border: 1px solid lightgray;
+    margin-left: 30px;
+    height: 50px;
+    width: 150px;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-size: large;
+    color: blue;
+}
